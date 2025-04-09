@@ -22,7 +22,7 @@ Our contributions can be summarized as follows:
 - For DMs, we used ADM, IDDPM, LDM, and SDE.
 
 **Dataset Download**  
-- **Preview Subset**: [Download Sample Data](https://drive.google.com/drive/folders/1bOsTvSYgQJ0Ajuc78y6fdGh4jV80mJB6?usp=drive_link)
+- **Preview Subset**: [Download form Google Drive](https://drive.google.com/drive/folders/1bOsTvSYgQJ0Ajuc78y6fdGh4jV80mJB6?usp=drive_link)
 
 **Data Source Declaration**  
 Part of this dataset is derived from external resources.  
