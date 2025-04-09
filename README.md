@@ -18,11 +18,16 @@ Our contributions can be summarized as follows:
 
 - The real dataset used for training was derived from the FFHQ dataset.
 - We generated synthetic face images using four classical GAN models and four DM models.
-- For GANs, we employed StyleGAN1, StyleGAN2, ProGAN, and VQGAN. For DMs, we used ADM, IDDPM, LDM, and SDE.
+- For GANs, we employed StyleGAN1, StyleGAN2, ProGAN, and VQGAN.
+- For DMs, we used ADM, IDDPM, LDM, and SDE.
+
+**Data Source Declaration**  
+Part of this dataset is derived from external resources.  
+**Copyright Notice**:  
+`# Thanks to dataset provider: Copyright(c) 2018, seeprettyface.com, BUPT_GWY contributes the dataset.`  
 
 ---
 
 ## Acknowledgements
 This work references data from the following repositories:
-- [Dataset A](https://github.com/xxx)  <!-- 替换为实际仓库链接 -->
-- [Dataset B](https://github.com/xxx)  <!-- 替换为实际仓库链接 -->
+- [generators-with-stylegan2]([https://github.com/xxx](https://github.com/a312863063/generators-with-stylegan2))  <!-- 替换为实际仓库链接 -->
