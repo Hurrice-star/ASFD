@@ -16,7 +16,9 @@ Our contributions can be summarized as follows:
 ## Asian Synthetic Face Dataset (ASFD)
 ![ASFD Dataset Example](ASFD_example.png)  <!-- 替换为实际图片路径 -->
 
-The real images in the dataset are sourced from the FFHQ dataset, from which we selected 11,000 images specifically featuring Asian facial characteristics. We generated synthetic face images using four classical GAN models and four DM models. For GANs, we employed StyleGAN1, StyleGAN2, ProGAN, and VQGAN. For DMs, we used ADM, IDDPM, LDM, and SDE.
+- The real dataset used for training was derived from the FFHQ dataset.
+- We generated synthetic face images using four classical GAN models and four DM models.
+- For GANs, we employed StyleGAN1, StyleGAN2, ProGAN, and VQGAN. For DMs, we used ADM, IDDPM, LDM, and SDE.
 
 ---
 
