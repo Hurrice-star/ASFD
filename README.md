@@ -21,11 +21,14 @@ Our contributions can be summarized as follows:
 - For GANs, we employed StyleGAN1, StyleGAN2, ProGAN, and VQGAN.
 - For DMs, we used ADM, IDDPM, LDM, and SDE.
 
+**Dataset Download**  
+- **Preview Subset**: [Download Sample Data](https://your-dataset-link.com/asfd_sample.zip) (可选)
+
 **Data Source Declaration**  
 Part of this dataset is derived from external resources.  
+
 **Copyright Notice**:  
 `# Thanks to dataset provider: Copyright(c) 2018, seeprettyface.com, BUPT_GWY contributes the dataset.`  
-
 ---
 
 ## Acknowledgements
