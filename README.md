@@ -35,3 +35,6 @@ Part of this dataset is derived from external resources.
 ## Acknowledgements
 This work references data from the following repositories:
 - [generators-with-stylegan2]([https://github.com/xxx](https://github.com/a312863063/generators-with-stylegan2))  <!-- 替换为实际仓库链接 -->
+This work references data from the following repositories:
+- [Dataset A](https://github.com/xxx)  <!-- 替换为实际仓库链接 -->
+- [Dataset B](https://github.com/xxx)  <!-- 替换为实际仓库链接 -->
