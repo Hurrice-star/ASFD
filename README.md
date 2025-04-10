@@ -1,4 +1,5 @@
 # Model Discrepancy Learning: Synthetic Faces Detection Based on Multi-Reconstruction
+Qingchao Jiang, Zhishuo Xu, Zhiying Zhu, Ning Chen, Haoyue Wang, Zhongjie Ba, ICME2025
 
 ![项目配图](method.jpg)  <!-- 替换为实际图片路径 -->
 
