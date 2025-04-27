@@ -9,9 +9,6 @@ Our contributions can be summarized as follows:
   We propose a novel detector to address the challenging task of distinguishing between real, GAN-generated, and DM-generated faces.
 - **ASFD Dataset**:  
   We introduce the **Asian Synthetic Face Dataset (ASFD)** to address the under-representation of Asian synthetic face data, providing valuable support for tasks targeting Asian populations.
-- **Experimental Results**:  
-  Extensive experiments demonstrate that our method significantly improves detection performance and robustness across different generative models.
-
 ---
 
 ## Asian Synthetic Face Dataset (ASFD)
@@ -28,11 +25,41 @@ Our contributions can be summarized as follows:
 **Data Source Declaration**  
 Part of this dataset is derived from external resources.  
 
+## Training Pipeline
+
+## 1. Download Weights
+Relevant model weights can be obtained from [Google Drive](https://drive.google.com/drive/folders/1ItfajIj7PROaslr4wVmLLC5EkwL9Ju0A?usp=sharing).  
+Download and save the weights in the appropriate project directory (if specific weight paths are required, update the configuration files accordingly).
+
+## 2. Generate Reconstructed Images
+To obtain images reconstructed using GAN:  
+```bash
+python ASFD/GAN-recon/scripts/inference.py
+```
+To obtain images reconstructed using DM:
+```bash
+python ASFD/DM-recon/guided-diffusion/compute_dire.py
+```
+## 3. Training Procedure
+Place the original image and the two reconstructed images in the following folders by category：
+```bash
+data/
+└── train/
+    └── dataset/
+        ├── dm/                
+        ├── gan/               
+        └── real/
+```
+start training：
+```bash
+python train.py
+```
+
 **Copyright Notice**:  
 `# Thanks to dataset provider: Copyright(c) 2018, seeprettyface.com, BUPT_GWY contributes the dataset.`  
-
----
 
 ## Acknowledgements
 This work references data from the following repositories:
 - [generators-with-stylegan2](https://github.com/a312863063/generators-with-stylegan2)  <!-- 替换为实际仓库链接 -->
+- [DIRE](https://github.com/ZhendongWang6/DIRE)
+- [encoder4editing](https://github.com/omertov/encoder4editing)
