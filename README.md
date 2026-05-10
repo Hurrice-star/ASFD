@@ -63,3 +63,17 @@ This work references data from the following repositories:
 - [generators-with-stylegan2](https://github.com/a312863063/generators-with-stylegan2)  <!-- 替换为实际仓库链接 -->
 - [DIRE](https://github.com/ZhendongWang6/DIRE)
 - [encoder4editing](https://github.com/omertov/encoder4editing)
+
+## Citation
+
+If you find this work useful for your research, please cite our paper:
+```bibtex
+@inproceedings{jiang2025model,
+  title={Model Discrepancy Learning: Synthetic Faces Detection Based on Multi-Reconstruction},
+  author={Jiang, QingChao and Xu, ZhiShuo and Zhu, ZhiYing and Chen, Ning and Wang, HaoYue and Ba, ZhongJie},
+  booktitle={2025 IEEE International Conference on Multimedia and Expo (ICME)},
+  pages={1--6},
+  year={2025},
+  organization={IEEE}
+}
+\```
